@@ -2,7 +2,7 @@ A = 214013
 C = 2531011
 MASK = 0xFFFFFFFF
 TH = 16547
-SPECIAL_INDICES = (0, 7, 13) # UPDATED INDICES CUS LEVEL IS ASS
+SPECIAL_INDICES = (0, 7, 13) # UPDATED INDICES BECAUSE LEVEL IS BAD
 
 def count_safe_passes(seed, steps, special_mask):
     s = seed & 0xFFFFFFFF
